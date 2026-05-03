@@ -13,7 +13,7 @@ def test_quiz():
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
 
-    driver.get("http://localhost:5000")
+    driver.get("http://127.0.0.1:5000")
 
     time.sleep(3)
 
